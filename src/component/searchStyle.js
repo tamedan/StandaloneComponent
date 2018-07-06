@@ -8,23 +8,19 @@ const styles = {
     padding: props => props.padding
   },
   myLabel: props => ({
-    //display: "block",
     color: props.labelColor,
     fontWeight: props.fontWeight,
     height: props.height,
     fontStyle: props.fontStyle
   })
 };
-
-const Button = ({ classes, children }) => (
+const Button = ({ classes }) => (
   <button className={classes.myButton}>
-    <FontAwesomeIcon className={classes.myLabel} icon="stroopwafel" />
+    <FontAwesomeIcon className={classes.myLabel} icon={faSearch} />
   </button>
 );
 
 Button.defaultProps = {
-  //padding: 10,
-  //fontWeight: "bold",
   fontStyle: "14px",
   labelColor: "red",
   height: "14px"

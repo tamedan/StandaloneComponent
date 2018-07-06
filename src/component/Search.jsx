@@ -44,7 +44,7 @@ export class Search extends React.Component {
               />
               <FormControl.Feedback />
 
-              <StyledButton />
+              <StyledButton labelColor="olive" />
             </FormGroup>
           </div>
         </form>
