@@ -1,0 +1,2 @@
+# StandaloneComponent
+Created with CodeSandbox
